@@ -917,8 +917,8 @@ function bootHeritagePin() {
     }
 
     // MAP TOKENS (Replace with your safe tokens)
-    const MAPBOX_TOKEN = "YOUR_MAPBOX_PUBLIC_PK_TOKEN"; 
-    const MAPTILER_KEY = "YOUR_MAPTILER_KEY"; 
+    const MAPBOX_TOKEN = "__MAPBOX_TOKEN__";
+    const MAPTILER_KEY = "__MAPTILER_KEY__";
 
     // --- MAPBOX LAYERS ---
     window.mapboxLight = L.tileLayer(
