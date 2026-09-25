@@ -917,8 +917,8 @@ function bootHeritagePin() {
     }
 
     // MAP TOKENS (Replace with your safe tokens)
-    const MAPBOX_TOKEN = "pk.eyJ1IjoidmFobml2ZXNoIiwiYSI6ImNtdTRvdWo1ZDA2MWgyeHM3OW90OWgyY2wifQ.oIw1CRC7SbOkCjrpPRR2Gw"; 
-    const MAPTILER_KEY = "ncuEopqsjRHVAvIrEVcd"; 
+    const MAPBOX_TOKEN = "YOUR_MAPBOX_PUBLIC_PK_TOKEN"; 
+    const MAPTILER_KEY = "YOUR_MAPTILER_KEY"; 
 
     // --- MAPBOX LAYERS ---
     window.mapboxLight = L.tileLayer(
